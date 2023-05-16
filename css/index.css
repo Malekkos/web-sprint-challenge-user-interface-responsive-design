@@ -122,6 +122,28 @@ header div h1 {
     width: 100vw;
     opacity: 0.7;
 }
+.SocialLinks {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.icon {
+    /* display: flex; */
+    /* flex-flow: row nowrap; */
+    /* justify-content: center; */
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.adjuster {
+    display: flex;
+    flex-flow: column;
+}
+.rower {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 2rem;
+}
 /*     WORKS UNTIL 990px!!!!!!!!!!!!!!!    
         NOW 820px
 

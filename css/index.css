@@ -91,8 +91,41 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
 }
+header div h1 {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    font-size: 6rem;
+}
+.nav {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.nav a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: none;
+}
+.noblue {
+    color: white;
+}
+.backforheader {
+    background-color: black;
+    height: 40vh;
+    width: 100vw;
+    opacity: 0.7;
+}
+/*     WORKS UNTIL 990px!!!!!!!!!!!!!!!    
+        NOW 820px
 
+*/
 /* spacers */
 .spacer {
     width: 100%;

@@ -263,7 +263,11 @@ header div h1 {
 .contacts {
     width: 25%;
 }
-
+#email, #phone {
+    text-decoration: none;
+    /* font-size: 20rem; */
+    color: inherit;
+}
 /* footer section */
 footer {
     width: 100%;

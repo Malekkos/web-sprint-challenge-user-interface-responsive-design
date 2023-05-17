@@ -69,7 +69,7 @@
 
 		<!-- gallery section -->
 		<section class="gallery">
-			<div>
+			<div class="galleryDiv">
 				<h2 class="galleryTitle">OUR FOOD</h2>
 
 				<img class="galleryImg" src="img/food-avocadotoast.jpg" alt="A picture of Avocado Toast"> 
@@ -88,7 +88,7 @@
 
 				<img class="galleryImg" src="img/food-tacos.jpg" alt="A picture of tacos"> 
 
-				<img class="galleryImg" src="img/food-wings.jpg" alt=""> 
+				<img class="galleryImg" src="img/food-wings.jpg" alt="A picture of chicken wings, the food"> 
 			</div>
 		</section>
 
@@ -164,17 +164,28 @@
 		<div class="spacer-sm"></div>
 
 		<!-- footer -->
-		<footer>
+		<footer class="footer">
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<div class="mailingDiv">
+				<h3 class="MailingList">Join our mailing list!</h3>
+				<div class="X3">
+					<!-- <label for="appender email">Email Adress</label> -->
+					<input type="email" name="email" id="email"> 
+					<button class="appender SUButton">Sign Up</button>
+				</div>
+			</div> 
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<div class="fLinks">
+				<div>
+					<a class="footerLinks" href="">Menu</a>
+					<a class="footerLinks" href="">Reservations</a>
+					<a class="footerLinks" href="">Special Offers</a>
+					<a class="footerLinks" href="">Contact</a>
+				</div>
+				<h4 class="copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</h4>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			</div>
+			
 		</footer>
 	</div>
 </body>

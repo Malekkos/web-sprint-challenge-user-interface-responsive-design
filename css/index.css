@@ -365,7 +365,12 @@ footer nav input {
 }
 } 
 @media (max-width: 680px) {
-
+    .backforheader {
+        height: auto;
+    }
+    .rower {
+        flex-flow: column nowrap;
+    }
 }
 /* mobile media query */
 @media (max-width: 428px) {

@@ -94,8 +94,59 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
 }
-
+header div h1 {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    font-size: 6rem;
+}
+.nav {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.nav a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: none;
+}
+.noblue {
+    color: white;
+}
+.backforheader {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    opacity: 0.7;
+}
+.SocialLinks {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.icon {
+    /* display: flex; */
+    /* flex-flow: row nowrap; */
+    /* justify-content: center; */
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.adjuster {
+    display: flex;
+    flex-flow: column;
+}
+.rower {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 2rem;
+}
 /* spacer */
 .spacer {
     width: 100%;
@@ -123,11 +174,71 @@ header {
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
+    height: 35vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-content: center;
+}
+/* .X3 {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%
+} */
+/* .appender {
+    display: flex;
+    flex-flow: row nowrap;
+} */
+.SUButton {
+    width: 10rem;
+    height: 4rem;
+}
+/* #email {
+    height: 2rem;
+    width: 40rem;
+    margin-left: 20rem;
+} */
+.MailingList {
+    font-size: 85%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footerLinks {
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
+/* .mailingDiv, .fLinks{
+    width: 30%;
+} */
+.label {
+    color: green;
+    font-size: 3rem;
+}
+footer nav input {
+    height: 4rem;
+}
+.fLinks {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* margin-left: 2rem; */
+}
+.copyright {
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    margin-left: 50%;
+    margin-bottom: 5rem;
+}
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */

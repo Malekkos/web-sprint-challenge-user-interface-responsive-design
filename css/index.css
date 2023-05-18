@@ -364,6 +364,12 @@ footer nav input {
     margin: 0;
 }
 } 
+@media (max-width: 700px) {
+    .address h3, .address address p, .hours h3, .hours div p, .contacts h3, .wrapper #phone {
+        /* width: 30%; */
+        font-size: 2rem;
+    }
+}
 @media (max-width: 680px) {
     .backforheader {
         height: auto;
